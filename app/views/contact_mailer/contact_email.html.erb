@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <p>You have received a message from the site's contact form, from <%= "#{ @name }, #{ @email }." %></p>
+    <p><%= @body %></p>
+  </body>
+</html>
+<!--This is the email that's going to get sent to us when someone fills out a contact form
+going to have these instance vars (@name and @email) these come from the contact mailer file
+all we need to do is pass in proper arguments-->
